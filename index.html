@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Website</title>
+    <link rel="stylesheet" href="style.css">
+        <script src="script.js" defer></script>
+</head>
+<body>
+        <div class="backdrop" id="backdrop"></div>
+	<div id="header" class="wide">
+	<div id="texttop">
+          <h1>Iwan Brown</h1>
+	  <h2>Film and Television Ba Hons</h2>
+	  <p>Recent Film graduate with experience in all stages of film production, including pre-production, shooting, and post-production. Strong creative and technical skills in editing, camera operation, and storytelling. Seeking opportunities to contribute to professional film, television, or digital media projects.</p>
+	</div>
+	  <div id="navbar">
+            <a class="navlink" onclick="switchView('box1', 'box2')">poolink</a>
+            <a class="navlink" href="">poolink</a>
+            <a class="navlink" href="">poolink</a>
+            <a class="navlink" href="">poolink</a>
+	  </div>
+	</div>
+
+	<div class="box" id="box1">
+		<h3>Gallery</h3>
+		<div class="clipbox">
+		<div id="clip01" class="clip" >
+		<iframe src="https://www.youtube.com/embed/uSWOWS1n3JU?list=PLWrIqGszZr5kw6ZjbaLJpgvkpF5kK9xJQ" title="Terminator Dark Fate Defiance - LEGION Gameplay (PC/UHD)" frameborder="0" allow=" gyroscope; picture-in-picture; web-share"  allowfullscreen id="videoBox01"></iframe>
+		<h3>title</h3>
+		<p>clip description</p>
+		<button onclick="openVideo('01')" >Open Video</button>
+		</div>
+
+		<div id="clip02" class="clip">
+<iframe  src="https://www.youtube.com/embed/WtdqAWfxC14" title="Portfolio 1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen id="videoBox02"></iframe>
+		<h3>title</h3>
+		<p>clip description</p>
+		<button onclick="openVideo('02')" >Open Video</button>
+		</div>
+		</div>
+		</div>
+	<div class="box" id="box2"  style="display:none;">
+	
+	</div>
+
+	<div id="footer">
+            <a class="navlink" href="">poolink</a>
+	    <p>|</p>
+            <a class="navlink" href="">poolink</a>
+	    <p>|</p>
+            <a class="navlink" href="">poolink</a>
+	    <p>|</p>
+            <a class="navlink" href="">poolink</a>
+	</div>
+
+
+</body>
+</html>
