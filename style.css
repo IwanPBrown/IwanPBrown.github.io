@@ -34,7 +34,7 @@ background-image: url("data:image/svg+xml,%3Csvg width='16' height='16' viewBox=
     margin: 1em !important;
     margin-top: 5% !important;
     box-shadow: 0 10px 40px rgba(0, 0, 0, 0.4);
-  border: 3px double black;
+  border: 3px solid rgb(40, 40, 40);
   height:  15em;
   max-width: 60%
 }
@@ -170,6 +170,12 @@ button {
 
 button:hover {
   color: blue;
+}
+
+
+.contactprefix {
+  color: black;
+  
 }
 
 
